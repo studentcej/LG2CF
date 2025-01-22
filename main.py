@@ -14,8 +14,6 @@ from tqdm import tqdm
 from data import *
 from model import *
 from evaluation import *
-from negative_sampling import *
-from cuda import *
 from sklearn.cluster import KMeans, DBSCAN
 # print(torch.__version__)
 USE_CUDA = torch.cuda.is_available()
